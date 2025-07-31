@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/userwithS")
+@RequestMapping("/api/")
 public class StudentsController {
     private final StudentProfile profile;
 
