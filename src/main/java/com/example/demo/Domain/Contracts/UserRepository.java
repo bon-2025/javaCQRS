@@ -1,11 +1,8 @@
 package com.example.demo.Domain.Contracts;
 
-import com.example.demo.Infrastucture.Database.Entities.StudentsTable;
+import com.example.demo.Infrastucture.Database.Entities.DescendantTable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.stereotype.Repository;
 
-import java.util.List;
-public interface UserRepository extends JpaRepository<StudentsTable, Long>{
+public interface UserRepository extends JpaRepository<DescendantTable, Long>{
     //StudentsTable findAllById(Long id);
 }

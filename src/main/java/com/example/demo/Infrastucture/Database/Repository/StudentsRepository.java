@@ -1,8 +1,7 @@
 package com.example.demo.Infrastucture.Database.Repository;
 
 import com.example.demo.Domain.Contracts.UserRepository;
-import com.example.demo.Infrastucture.Database.Entities.StudentsTable;
-import org.springframework.stereotype.Repository;
+import com.example.demo.Infrastucture.Database.Entities.DescendantTable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,7 +14,7 @@ public class StudentsRepository {
         this.repo = repo;
     }
 
-    public List<StudentsTable> getAllStudents() {
+    public List<DescendantTable> getAllStudents() {
         return repo.findAll();
     }
 
