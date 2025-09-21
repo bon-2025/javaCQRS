@@ -11,6 +11,9 @@ public class AdminProfile {
         this.query = query;
     }
     public Long contractStatus(){
+
+
+
         return query.getContractStatus();
     }
 }
