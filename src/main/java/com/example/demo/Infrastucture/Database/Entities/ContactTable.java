@@ -6,13 +6,12 @@ import lombok.Data;
 
 @Entity
 @Data
-public class DescendantTable {
+public class ContactTable {
     @Id
     private Long burialPermitNumber;
     private String firstName;
     private String lastName;
-    private String birthDay;
-    private String deathDay;
+    private String phoneNumber;
     private String gender;
-    private String internmentAddress;
+    private String currentAddress;
 }
