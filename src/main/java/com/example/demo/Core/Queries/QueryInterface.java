@@ -1,9 +1,9 @@
 package com.example.demo.Core.Queries;
 
-import com.example.demo.Domain.Models.AdminModel;
+import com.example.demo.Domain.Models.DateDescendantsCount;
 
 import java.util.List;
 
 public interface QueryInterface {
-    List<AdminModel> getRecordsByName();
+    public List<DateDescendantsCount> getTotalOfDescendantsByWeek();
 }
